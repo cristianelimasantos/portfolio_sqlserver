@@ -26,7 +26,7 @@ Tabela Fato:
 . Desconto  
 . Custo unitário  
   
-Métricas Calculadas
-. Receita: quantidade x preço unitário - desconto
-. Lucro: (preço unitário - custo unitário - desconto) * quantidade
-. Ticket Médio: média da receita por transação
+Métricas Calculadas  
+. Receita: quantidade x preço unitário - desconto  
+. Lucro: (preço unitário - custo unitário - desconto) * quantidade  
+. Ticket Médio: média da receita por transação  
