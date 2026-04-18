@@ -24,11 +24,7 @@ SELECT
 	R.Nome_Cliente,
 	ROUND(R.Receita, 2) Receita,
 	ROUND((R.Receita / RT.Receita_Total), 3) Percentual,
-	CASE
-		WHEN R.Receita > MR.Media_Receita
-		THEN 'Bom'
-		ELSE 'Regular'
-		END AS Classificacao_MediaReceita
+	IIF(R.Receita > MR.Media_Receita, 'Bom', 'Regular') Classificacao
 FROM ReceitaCLiente R
 	CROSS JOIN MediaGeral MR
 	CROSS JOIN ReceitaTotal RT
