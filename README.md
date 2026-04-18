@@ -30,3 +30,12 @@ Métricas Calculadas
 . Receita: quantidade x preço unitário - desconto  
 . Lucro: (preço unitário - custo unitário - desconto) * quantidade  
 . Ticket Médio: média da receita por transação  
+  
+Perguntas de negócio analisadas:  
+. Faturamento mensal e acumulado  
+. Top 10 - Produtos mais vendidos por ano  
+. Loja com maior lucro  
+. Ranking de vendedor com maior ticket médio  
+. Classificação de clientes por valor médio de receita  
+. Crescimento anual de vendas  
+. Ranking de lucro de vendedores por loja  
